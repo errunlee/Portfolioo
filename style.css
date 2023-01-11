@@ -66,7 +66,7 @@ main .intro{
   background:white;
   cursor: pointer;
   color:black;
-  border: 3px solid #806a42;
+  border: 3px solid white;
 }
 
 .buttons a{
@@ -90,7 +90,6 @@ main .intro{
   font-size: 20px;
   width:90%;
 }
-
 .projects{  
   display: inline-flex;
   flex-direction: column;
@@ -194,7 +193,13 @@ footer .imgs svg:hover{
   .intro h2 {
     font-size: 23px;
 }
-
+.skills h2{
+  letter-spacing: 0;
+}
+.skills img{
+  height:40px;
+  width:40px;
+}
 .projects h1{
   font-size:25px;
 }
